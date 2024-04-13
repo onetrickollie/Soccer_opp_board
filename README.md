@@ -1,4 +1,8 @@
 # Soccer_opp_board
+To run:
+Start exhaustiveSearch.exe
+Check results in terminal
+
 # Exhaustive Apporach
 
 The staged opponent avoidance problem is a puzzle that comes from a modified real-life scenario,
