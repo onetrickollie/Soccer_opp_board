@@ -1,14 +1,15 @@
 # Soccer_opp_board
 # Exhaustive Apporach
+
 The staged opponent avoidance problem is a puzzle that comes from a modified real-life scenario,
 where soccer players of a team maneuver through an opponent-filled field in order to find a safe
 passage to reach the goal post. For example, we could consider the Red Team trying to overcome
-the Blue Team. The field is represented by a square � × � grid with r rows and c columns. In this
+the Blue Team. The field is represented by a square r × c grid with r rows and c columns. In this
 modified game, unlike in real-life, players of the opposing team are stationary, and are located in
 some cells. The Red Team starts from the top-left corner of the field, at (row,
-column) location (0,0), dribbles past the opponents, and aims to reach the goal post in the bottomright corner at location (r−�, � − �). The occupied cells are impenetrable and movements towards
-the goal post can only be done by moving right, from location (�,�) to (�,� + �); or down,
-from (�,�) to (� + �,�). A path may not go through an occupied cell, so the Red Team can only
+column) location (0,0), dribbles past the opponents, and aims to reach the goal post in the bottomright corner at location (r−1, c−1). The occupied cells are impenetrable and movements towards
+the goal post can only be done by moving right, from location (i,j) to (i,j + 1); or down,
+from (i,j) to (i+1,j). A path may not go through an occupied cell, so the Red Team can only
 move to a new location, if there is no opponent at that location.
 
 The field can be displayed as a 2D grid, like the following:
