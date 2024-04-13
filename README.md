@@ -14,6 +14,7 @@ move to a new location, if there is no opponent at that location.
 
 The field can be displayed as a 2D grid, like the following:
 ......X.X
+---------
 X........
 ...X...X.
 ..X....X.
