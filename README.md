@@ -14,14 +14,13 @@ move to a new location, if there is no opponent at that location.
 
 The field can be displayed as a 2D grid, like the following:
 ......X.X
----------
 X........
 ...X...X.
 ..X....X.
 .X....X..
-....X....
-..X.....X
-.........
+#....X....
+#..X.....X
+#.........
 The Red Team starts at row 0 and column 0, i.e. coordinate (0,0) at the top-left corner. Each period
 represents a passable spot and each X represents an opponent-occupied spot (i.e. an impenetrable
 spot). The Red Team's goal is to plan a passable route to cross the field, and reach the opponents
